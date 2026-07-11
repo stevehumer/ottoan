@@ -1,3 +1,38 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ── Ottoan brand ─────────────────────────────────────────────
+
+// robot mark next to the wordmark (relative URL so it works on
+// both ottoan.com and the github.io/ottoan subpath)
+.page-title a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  &::before {
+    content: "";
+    flex-shrink: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    background: url("static/logo.svg") no-repeat center / contain;
+  }
+}
+
+// footer: hide the stock "Created with Quartz" attribution and
+// show our own line instead
+footer > p {
+  display: none;
+}
+
+footer::before {
+  content: "© Ottoan — a digital garden on quality";
+  display: block;
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+
+// the stock footer pulls its link list up under the (now hidden)
+// attribution paragraph — restore normal spacing
+footer ul {
+  margin-top: 0.4rem !important;
+}

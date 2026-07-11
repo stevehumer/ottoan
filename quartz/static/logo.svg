@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="disc">
+      <circle cx="400" cy="400" r="361"/>
+    </clipPath>
+  </defs>
+
+  <!-- outer disc -->
+  <circle cx="400" cy="400" r="372" fill="#ffffff" stroke="#2e3538" stroke-width="22"/>
+
+  <g clip-path="url(#disc)">
+    <!-- center antennae -->
+    <g fill="none" stroke="#2e3538" stroke-width="20" stroke-linecap="round">
+      <!-- hooked antenna -->
+      <path d="M 372 250 L 372 195 Q 372 168 348 168 Q 326 168 326 190 Q 326 210 348 210"/>
+      <circle cx="372" cy="150" r="0"/>
+      <!-- straight antenna with ball -->
+      <path d="M 420 250 L 420 138"/>
+    </g>
+    <circle cx="420" cy="124" r="14" fill="#2e3538"/>
+    <circle cx="348" cy="210" r="11" fill="#2e3538"/>
+
+    <!-- side antenna wires -->
+    <g fill="none" stroke="#2e3538" stroke-width="18" stroke-linecap="round">
+      <path d="M 196 322 Q 172 300 163 268"/>
+      <path d="M 604 322 Q 628 300 637 268"/>
+    </g>
+    <circle cx="160" cy="252" r="12" fill="#2e3538"/>
+    <circle cx="640" cy="252" r="12" fill="#2e3538"/>
+
+    <!-- ears -->
+    <circle cx="196" cy="340" r="26" fill="#f4703b" stroke="#2e3538" stroke-width="18"/>
+    <circle cx="604" cy="340" r="26" fill="#f4703b" stroke="#2e3538" stroke-width="18"/>
+
+    <!-- head -->
+    <rect x="207" y="243" width="386" height="292" rx="26" fill="#f4703b" stroke="#2e3538" stroke-width="22"/>
+
+    <!-- visor -->
+    <rect x="248" y="304" width="304" height="92" rx="30" fill="#2e3538"/>
+    <g fill="#ffffff">
+      <circle cx="298" cy="332" r="9"/>
+      <circle cx="336" cy="332" r="9"/>
+      <circle cx="374" cy="332" r="9"/>
+      <circle cx="298" cy="368" r="9"/>
+      <circle cx="336" cy="368" r="9"/>
+      <circle cx="466" cy="332" r="9"/>
+      <circle cx="504" cy="332" r="9"/>
+      <circle cx="466" cy="368" r="9"/>
+      <circle cx="504" cy="368" r="9"/>
+    </g>
+
+    <!-- mouth -->
+    <path d="M 349 449 q -12 27 16 29 l 96 2" fill="none" stroke="#2e3538" stroke-width="20" stroke-linecap="round"/>
+
+    <!-- neck -->
+    <rect x="358" y="535" width="84" height="72" fill="#f4703b" stroke="#2e3538" stroke-width="22"/>
+
+    <!-- shoulder tabs -->
+    <rect x="146" y="628" width="42" height="102" rx="14" fill="#f4703b" stroke="#2e3538" stroke-width="18"/>
+    <rect x="612" y="628" width="42" height="102" rx="14" fill="#f4703b" stroke="#2e3538" stroke-width="18"/>
+
+    <!-- body -->
+    <rect x="176" y="596" width="448" height="260" rx="28" fill="#f4703b" stroke="#2e3538" stroke-width="22"/>
+
+    <!-- neck channel into body -->
+    <path d="M 368 596 L 368 628 Q 368 654 336 654" fill="none" stroke="#2e3538" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 432 596 L 432 628 Q 432 654 464 654" fill="none" stroke="#2e3538" stroke-width="18" stroke-linecap="round"/>
+
+    <!-- belt: o t t o -->
+    <g stroke="#2e3538" fill="none">
+      <line x1="330" y1="712" x2="545" y2="712" stroke-width="14"/>
+      <circle cx="318" cy="712" r="21" stroke-width="14" fill="#f4703b"/>
+      <circle cx="558" cy="712" r="21" stroke-width="14" fill="#f4703b"/>
+    </g>
+    <rect x="393" y="686" width="16" height="52" rx="8" fill="#2e3538"/>
+    <rect x="453" y="686" width="16" height="52" rx="8" fill="#2e3538"/>
+  </g>
+</svg>

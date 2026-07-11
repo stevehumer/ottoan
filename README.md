@@ -1,17 +1,30 @@
-# Quartz v5
+# Ottoan
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A digital garden on quality — principles, frameworks, and lessons from engineering and beyond.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+**Live site:** [ottoan.com](https://ottoan.com)
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## What this repo is
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+The garden is built with [Quartz 5](https://quartz.jzhao.xyz) and deployed to GitHub Pages on every push to `main` (see `.github/workflows/deploy.yml`).
 
-## Sponsors
+- **`content/`** — all the notes. This is the garden; everything else is scaffolding.
+- **`quartz.config.yaml`** — site configuration (title, theme, plugins).
+- **`quartz/`** — the Quartz framework itself (vendored; updated via `npx quartz upgrade` from the `upstream` remote).
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Working locally
+
+```shell
+npm ci
+npx quartz plugin install
+npx quartz build --serve   # preview at http://localhost:8080
+```
+
+Write notes as Markdown in `content/`, using `[[wikilinks]]` to connect them. Each note carries a growth-stage tag: `#seedling` (new, unproven), `#budding` (developed, partially tested), `#evergreen` (stable position).
+
+## Updating the framework
+
+```shell
+git fetch upstream
+npx quartz upgrade
+```

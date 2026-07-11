@@ -15,10 +15,10 @@ The test for whether you have a mechanism or a memo: **what happens when nobody 
 
 Two cautions I want to hold onto:
 
-- A mechanism nobody believes in becomes compliance theater — the checklist gets ticked without the work behind it. Mechanisms need [[psychological-safety]] underneath them, or people optimize for passing the check rather than surfacing the truth.
+- A mechanism nobody believes in becomes compliance theater — the checklist gets ticked without the work behind it. Mechanisms need [[psychological-safety|psychological safety]] underneath them, or people optimize for passing the check rather than surfacing the truth.
 - Mechanisms encode *today's* understanding. Every one needs an owner and a review trigger, or it outlives its reason and becomes bureaucracy with tenure.
 
 Related:
 
-- [[build-quality-in]] — built-in quality is essentially a portfolio of mechanisms
-- [[measure-outcomes-not-activity]] — the outcome data tells you whether the mechanism works or just runs
+- [[build-quality-in|Build quality in]] — built-in quality is essentially a portfolio of mechanisms
+- [[measure-outcomes-not-activity|Measure outcomes, not activity]] — the outcome data tells you whether the mechanism works or just runs

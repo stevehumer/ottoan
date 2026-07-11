@@ -22,6 +22,6 @@ In quality terms: if regression testing is the constraint, adding developers mak
 
 Related:
 
-- [[small-batches-fast-feedback]] — big batches hide where the constraint is
-- [[measure-outcomes-not-activity]] — activity metrics reward improving non-constraints
-- [[conways-law]] — sometimes the constraint is a team boundary, not a team
+- [[small-batches-fast-feedback|Small batches, fast feedback]] — big batches hide where the constraint is
+- [[measure-outcomes-not-activity|Measure outcomes, not activity]] — activity metrics reward improving non-constraints
+- [[conways-law|Conway's Law]] — sometimes the constraint is a team boundary, not a team

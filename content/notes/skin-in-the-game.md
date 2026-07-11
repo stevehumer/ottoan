@@ -21,6 +21,6 @@ Open questions to work through here:
 
 Related:
 
-- [[build-quality-in]] — ownership of quality vs. inspection of it
-- [[team-topologies]] — where consequence sits in each team shape
-- [[psychological-safety]] — exposure without safety is just fear; the two have to move together
+- [[build-quality-in|Build quality in]] — ownership of quality vs. inspection of it
+- [[team-topologies|Team Topologies]] — where consequence sits in each team shape
+- [[psychological-safety|Psychological safety]] — exposure without safety is just fear; the two have to move together

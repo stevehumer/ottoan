@@ -14,6 +14,6 @@ For quality work this cuts deep. Where the test-ownership boundaries sit *is* th
 
 Related:
 
-- [[theory-of-constraints]] — once structure is right, find where the flow actually chokes
-- [[small-batches-fast-feedback]] — hand-offs between teams are where batches grow and feedback dies
-- [[build-quality-in]] — ownership boundaries determine who *can* build quality in
+- [[theory-of-constraints|Theory of Constraints]] — once structure is right, find where the flow actually chokes
+- [[small-batches-fast-feedback|Small batches, fast feedback]] — hand-offs between teams are where batches grow and feedback dies
+- [[build-quality-in|Build quality in]] — ownership boundaries determine who *can* build quality in

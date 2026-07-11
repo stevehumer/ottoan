@@ -21,5 +21,5 @@ A platform team has its own failure mode: without a real charter, backlog, and a
 
 Related:
 
-- [[conways-law]] — the reason team shape matters at all
-- [[build-quality-in]] — embedded QE + a platform pod is this vocabulary applied to quality
+- [[conways-law|Conway's Law]] — the reason team shape matters at all
+- [[build-quality-in|Build quality in]] — embedded QE + a platform pod is this vocabulary applied to quality

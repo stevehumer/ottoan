@@ -14,6 +14,6 @@ Lencioni's dysfunctions pyramid explains the ordering: trust enables conflict, c
 
 Related:
 
-- [[mechanisms-not-memos]] — mechanisms without safety produce compliance theater
-- [[measure-outcomes-not-activity]] — unsafe teams game activity metrics first
-- [[small-batches-fast-feedback]] — feedback only amplifies learning if it's safe to receive
+- [[mechanisms-not-memos|Mechanisms, not memos]] — mechanisms without safety produce compliance theater
+- [[measure-outcomes-not-activity|Measure outcomes, not activity]] — unsafe teams game activity metrics first
+- [[small-batches-fast-feedback|Small batches, fast feedback]] — feedback only amplifies learning if it's safe to receive

@@ -14,7 +14,7 @@ This reframes what a quality engineering organization is *for*. QE-as-gate inspe
 
 Two ideas make this workable in practice:
 
-- [[mechanisms-not-memos]] — built-in quality has to be the default path, not a plea
-- [[measure-outcomes-not-activity]] — you'll know it's working from escape rates and cycle time, not test-case counts
+- [[mechanisms-not-memos|Mechanisms, not memos]] — built-in quality has to be the default path, not a plea
+- [[measure-outcomes-not-activity|Measure outcomes, not activity]] — you'll know it's working from escape rates and cycle time, not test-case counts
 
 And one idea explains why the gate fails structurally, not just economically: a gate is a hand-off, and [[small-batches-fast-feedback|slow feedback across hand-offs]] is where defects go to compound.

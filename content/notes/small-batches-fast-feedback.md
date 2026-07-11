@@ -18,6 +18,6 @@ Gene Kim's Second Way (from *The Phoenix Project*) generalizes it: amplify feedb
 
 Related:
 
-- [[theory-of-constraints]] — small batches make the real constraint visible
-- [[build-quality-in]] — end-of-line inspection is a large batch of feedback, delivered late
-- [[measure-outcomes-not-activity]] — lead time and deploy frequency are batch-size metrics in disguise
+- [[theory-of-constraints|Theory of Constraints]] — small batches make the real constraint visible
+- [[build-quality-in|Build quality in]] — end-of-line inspection is a large batch of feedback, delivered late
+- [[measure-outcomes-not-activity|Measure outcomes, not activity]] — lead time and deploy frequency are batch-size metrics in disguise

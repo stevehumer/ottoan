@@ -21,10 +21,10 @@ Follow the links between notes rather than reading linearly — the connections 
 
 ## A few places to start
 
-- [[build-quality-in]] — the closest thing this garden has to a root system
-- [[conways-law]] — why your org chart is secretly your architecture
-- [[theory-of-constraints]] — why most improvement effort changes nothing
-- [[mechanisms-not-memos]] — why good intentions need process design
+- [[build-quality-in|Build quality in]] — the closest thing this garden has to a root system
+- [[conways-law|Conway's Law]] — why your org chart is secretly your architecture
+- [[theory-of-constraints|Theory of Constraints]] — why most improvement effort changes nothing
+- [[mechanisms-not-memos|Mechanisms, not memos]] — why good intentions need process design
 
 ## Who's gardening
 
